@@ -1,0 +1,77 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 110px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.logo2 {
+    max-width: 100%; /* Ensures it never overflows */
+    width: 50vw; /* Scales relative to viewport width */
+    height: auto; /* Maintains aspect ratio */
+    flex-shrink: 0;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 35%;
+}
+
+.about-header {
+    color: #ffffff;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+
+.about-subheader {
+    color: #eaecff;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.about-p {
+    color: #231F20;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.quote-button {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 2px;
+        background: #262ce3;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 24px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+}
+
+.quote-button:hover {
+    cursor: pointer;
+    background-color: #1c21b1;
+    border: solid 1px #ffffff;
+}

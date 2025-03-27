@@ -1,10 +1,12 @@
 import React from 'react'
-import Hero from './components/Hero'
+import Navbar from './components/Navbar.tsx'
+import About from './components/About.tsx'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Hero />
+      <Navbar />
+      <About />
     </div>
   )
 }
